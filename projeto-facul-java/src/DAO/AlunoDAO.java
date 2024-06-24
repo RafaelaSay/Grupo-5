@@ -85,7 +85,7 @@ public class AlunoDAO {
         Aluno aluno = null;
     
         try (Connection conn = Conexao.getConexao();
-             PreparedStatement ps = conn.prepareStatement(sql)) {
+            PreparedStatement ps = conn.prepareStatement(sql)) {
              
             ps.setString(1, matricula);
     

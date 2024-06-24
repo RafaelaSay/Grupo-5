@@ -155,7 +155,7 @@ public class DisciplinaDAO {
         return false;
     }
 
-     public boolean deletarDisciplina(Disciplina disciplina) {
+    public boolean deletarDisciplina(Disciplina disciplina) {
         String deleteDisciplinaSql = "DELETE FROM Disciplinas WHERE id = ?";
 
         PreparedStatement ps = null;
